@@ -1,0 +1,5 @@
+factorial: fact.o
+	g++ -o factorial fact.o
+fact.o: fact.cpp fact.h
+	g++ -c a3driver.cpp
+  
