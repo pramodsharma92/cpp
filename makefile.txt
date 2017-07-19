@@ -1,4 +1,4 @@
-factorial: fact.o
+factorial.exe: fact.o
 	g++ -o factorial fact.o
 fact.o: fact.cpp fact.h
 	g++ -c fact.cpp
